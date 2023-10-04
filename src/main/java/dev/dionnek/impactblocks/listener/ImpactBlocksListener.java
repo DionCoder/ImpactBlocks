@@ -18,7 +18,7 @@ public class ImpactBlocksListener implements Listener {
     }
 
     /**
-     * This event checks if a player has fallen and, if so, performs a stomp action.
+     * This event checks if a player has fallen and, if so, performs a break action.
      *
      */
     @EventHandler
@@ -35,7 +35,7 @@ public class ImpactBlocksListener implements Listener {
      * Checks if a player can perform a break action based on their fall height.
      *
      * @param player The player being checked.
-     * @return true if the player can perform a stomp action, otherwise false.
+     * @return true if the player can perform a break action, otherwise false.
      */
     private boolean isFallAction(Player player) {
         double stompFallHeight = ImpactBlocks.getConfig().getDouble("blocks_fall_height");
