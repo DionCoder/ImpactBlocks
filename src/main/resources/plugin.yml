@@ -1,0 +1,5 @@
+name: ImpactBlocks
+version: '${project.version}'
+main: dev.dionnek.impactblocks.ImpactBlocks
+author: Dion
+description: ImpactBlocks
